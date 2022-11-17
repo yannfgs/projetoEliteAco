@@ -1,16 +1,87 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+/* HEADER */
+.container a {
   color: black;
 }
 
+.logotipo{
+  height: 80px;
+  margin-top: 10px;
+}
+
+.row .col-4 input{
+width: 100%;
+height: 40px;
+padding: 10px;
+}
+
+.row .col-4 a ion-icon{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.col-2 a {
+  color: #25d366;
+}
+
+.containerNav{
+height: 90px;
+}
+
+.firstNav a span {
+  font-weight: 500;
+}
+
+.col-1 ion-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.whatsapp {
+  width: 45px;
+  height: 30px;
+  margin-right: 7px;
+}
+
+.secondNav {
+  width: 100%;
+  height: 60px;
+  background-color: #e3242b;
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  transition: transform 0.2s;
+}
+
+.secondNav a {
+  color: white;
+}
+
+.secondNav .row span:hover {
+  transform: scale(1.2);
+}
+
+.secondNav span{
+  font-size: 20px;
+}
+
+/* FIRST BANNER */
 .firstBanner {
   margin-top: 50px;
 }
+
+/* FIRST CARDS */
 .cards {
   background-color: grey;
   height: 50vh;
@@ -35,7 +106,7 @@ a {
   color: #004abe;
   border: none;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 1.25rem;
 
   text-align: center;
 }
@@ -56,10 +127,13 @@ a {
   background: orange;
   border-radius: 5px;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 1.5rem;
   text-align: center;
 }
-
+/* SEÇÃO DESCRIÇÃO */
+.company {
+  margin-top: 50px;
+}
 
 .newsletter {
   background: #004abe;
@@ -69,7 +143,7 @@ a {
   margin-top: 50px;
 }
 
-.buttonCadastrar{
+.buttonCadastrar {
   width: 160px;
   padding: 10px 10px;
   color: white;
@@ -80,13 +154,13 @@ a {
   text-align: center;
 }
 
-.name{
-  width: 230px;
+.name {
+  width: 100%;
   height: 40px;
   padding: 0;
 }
 
-.email{
-  width: 384px;
+.email {
+  width: 100%;
   height: 40px;
 }

@@ -18,73 +18,77 @@
   <body>
     <header>
       <!-- HEADER -->
-      <div class="container">
-        <nav>
-          <div class="row align-items-center">
-            <div class="col-3">
-              <img
+      <div class="container containerNav ">
+        <nav class="firstNav ">
+          <div class="row align-items-center" >
+            <div class="col-3 align-items-center">
+              <img class="logotipo"
                 src="img/logo_eliteaco_semfundo_200x85.png"
                 alt="eliteaco logo"
               />
             </div>
-            <div class="col-6">
-              <input type="O que você precisa?" />
-              <a href=""></a> <ion-icon name="search-outline"></ion-icon>
+            <div class="col-4 position-relative">
+              <input type="text" placeholder="Digite aqui o que você precisa" />
+              <a href="" class="position-absolute"> <ion-icon name="search-outline"></ion-icon>
+              </a>
+            </div>
+            <div class="col-2">
+              <a href="" class="d-flex flex-row align-items-center ">
+                <ion-icon name="logo-whatsapp" class="whatsapp"></ion-icon>
+                <span>Compre pelo WhatsApp</span>
+              </a>
             </div>
             <div class="col-1">
               <a href="" class="d-flex flex-column align-items-center">
                 <ion-icon name="person-outline"></ion-icon>
-                <h4>Entrar</h4>
+                <span>Entrar</span>
               </a>
             </div>
             <div class="col-1">
               <a href="" class="d-flex flex-column align-items-center">
                 <ion-icon name="heart-outline"></ion-icon>
-                <h4>Favoritos</h4>
+                <span>Favoritos</span>
               </a>
             </div>
             <div class="col-1">
               <a href="" class="d-flex flex-column align-items-center">
                 <ion-icon name="cart-outline"></ion-icon>
-                <h4>Carrinho</h4>
-              </a>
-            </div>
-          </div>
-        </nav>
-        <nav>
-          <div class="row">
-            <div class="col-2">
-              <a href="">
-                <h3>Loja</h3>
-              </a>
-            </div>
-            <div class="col-2"></div>
-            <a href="">
-              <h3>Categorias</h3>
-            </a>
-            <div class="col-2">
-              <a href="">
-                <h3>Sobre Nós</h3>
-              </a>
-            </div>
-            <div class="col-2">
-              <a href="">
-                <h3>Vídeos de Montagem</h3>
-              </a>
-            </div>
-            <div class="col-2">
-              <a href="">
-                <h3>Suporte Técnico</h3>
-              </a>
-            </div>
-            <div class="col-2">
-              <a href="">
-                <h3>Responsabilidade Social</h3>
+                <span>Carrinho</span>
               </a>
             </div>
           </div>
         </nav>
       </div>
+   
+      <nav class="d-flex   justify-content-around align-items-center secondNav">
+        <div class="row d-flex flex-row  align-items-center ">
+          <div class="col-1 justify-content-center">
+            <a href="" class="justify-content-center">
+              <span>Loja</span>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <span class="text-center">Categorias</span>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <span>Sobre Nós</span>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <span class="text-nowrap">Vídeos de Montagem</span>
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <span class = "text-nowrap">Suporte Técnico</span>
+            </a>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- CAROUSEL BELOW HEADER (BANNERS) -->
@@ -152,7 +156,7 @@
               alt="armarios multiuso"
               class="w-100 p-1 rounded-circle"
             />
-            <h4>Armários Multiuso de Aço</h4>
+            <span>Armários Multiuso de Aço</h5>
           </a>
         </div>
         <div class="col-3">
@@ -581,10 +585,10 @@
         </h3>
       </div>
       <div class="row">
-        <div class="col-3">
+        <div class="col">
           <input type="text" placeholder="Digite o seu nome" class="name" />
         </div>
-        <div class="col-6">
+        <div class="col">
           <input
             type="email"
             name=""
@@ -593,7 +597,7 @@
             class="email"
           />
         </div>
-        <div class="col-1">
+        <div class="col-2">
           <a href="" class="buttonCadastrar">Cadastrar</a>
         </div>
       </div>
