@@ -1,3 +1,4 @@
+/* FONTES DO GOOGLE */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
 
 * {
@@ -79,16 +80,13 @@ a {
   font-size: 20px;
 }
 
-/* FIRST BANNER */
-
+/* FIRST BANNER (PROMOS) */
 .firstBanner img {
-
   width: 100%;
   margin-bottom: 3rem;
 }
 
-/* CATEGORY */
-
+/* CATEGORIES */
 .category {
   font-weight: 600;
   margin-top: 3rem;
@@ -108,8 +106,8 @@ a {
 .categoryItem:hover {
   transform: scale(1.1);
 }
-/* FIRST CARDS */
 
+/* FIRST CARDS */
 .cards {
   /* background-color: grey; */
   /* height: 50vh; */
@@ -127,6 +125,7 @@ a {
 .secondCards .row {
   margin-top: 5vh;
 }
+
 .secondCards .button {
   text-decoration: none;
   outline: none;
@@ -158,6 +157,7 @@ a {
   font-size: 1.5rem;
   text-align: center;
 }
+
 /* SEÇÃO DESCRIÇÃO */
 .company {
   margin-top: 50px;
@@ -194,32 +194,29 @@ a {
 }
 
 @media (min-width: 1140px) {
-.dropdown{
-  display: none;
-}
-}
-
-@media  (max-width:1140px){
-.itensHeader{
-  display: none;
+  .dropdown {
+    display: none;
+  }
 }
 
-.btn-secondary{
-  background: #fff;
-  color: #e3242b;
-  border-color: grey;
-  
-}
-.btn-secondary:active{
-  background: #e3242b;
-}
-.btn-secondary:disabled{
-  background: #e3242b;
-}
+@media (max-width: 1140px) {
+  .itensHeader {
+    display: none;
+  }
 
+  .btn-secondary {
+    background: #fff;
+    color: #e3242b;
+    border-color: grey;
+  }
+  .btn-secondary:active {
+    background: #e3242b;
+  }
+  .btn-secondary:disabled {
+    background: #e3242b;
+  }
 
-.btn-secondary:hover{
-  background: #e3242b;
-
-}
+  .btn-secondary:hover {
+    background: #e3242b;
+  }
 }
