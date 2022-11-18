@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
 * {
   padding: 0;
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -12,18 +15,18 @@ a {
   color: black;
 }
 
-.logotipo{
+.logotipo {
   height: 80px;
   margin-top: 10px;
 }
 
-.row .col-4 input{
-width: 100%;
-height: 40px;
-padding: 10px;
+.row .col-4 input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
 }
 
-.row .col-4 a ion-icon{
+.row .col-4 a ion-icon {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -35,8 +38,8 @@ padding: 10px;
   color: #25d366;
 }
 
-.containerNav{
-height: 90px;
+.containerNav {
+  height: 90px;
 }
 
 .firstNav a span {
@@ -59,7 +62,7 @@ height: 90px;
   height: 60px;
   background-color: #e3242b;
   color: white;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   margin-top: 10px;
   transition: transform 0.2s;
 }
@@ -68,24 +71,49 @@ height: 90px;
   color: white;
 }
 
-.secondNav .row span:hover {
-  transform: scale(1.2);
+.secondNav .navItens:hover {
+  transform: scale(1.1);
 }
 
-.secondNav span{
+.secondNav span {
   font-size: 20px;
 }
 
 /* FIRST BANNER */
-.firstBanner {
-  margin-top: 50px;
+
+.firstBanner img {
+
+  width: 100%;
+  margin-bottom: 3rem;
 }
 
+/* CATEGORY */
+
+.category {
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.spanCategory {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #707173;
+}
+
+.categoryItem {
+  transition: transform 0.2s;
+}
+
+.categoryItem:hover {
+  transform: scale(1.1);
+}
 /* FIRST CARDS */
+
 .cards {
-  background-color: grey;
-  height: 50vh;
-  margin-top: 50px;
+  /* background-color: grey; */
+  /* height: 50vh; */
+  margin-top: 3rem;
 }
 
 .carouselProducts {
@@ -163,4 +191,35 @@ height: 90px;
 .email {
   width: 100%;
   height: 40px;
+}
+
+@media (min-width: 1140px) {
+.dropdown{
+  display: none;
+}
+}
+
+@media  (max-width:1140px){
+.itensHeader{
+  display: none;
+}
+
+.btn-secondary{
+  background: #fff;
+  color: #e3242b;
+  border-color: grey;
+  
+}
+.btn-secondary:active{
+  background: #e3242b;
+}
+.btn-secondary:disabled{
+  background: #e3242b;
+}
+
+
+.btn-secondary:hover{
+  background: #e3242b;
+
+}
 }
