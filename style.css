@@ -1,4 +1,4 @@
-                                    /* GOOGLE FONTS */
+/* GOOGLE FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
 
 * {
@@ -165,7 +165,7 @@ a {
 
 /* >>> DESCRIPTION SECTION <<< */
 .company {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .newsletter {
