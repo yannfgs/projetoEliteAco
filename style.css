@@ -17,7 +17,7 @@ a {
 }
 
 .logotipo {
-  height: 80px;
+  height: 85px;
   margin-top: 10px;
 }
 
@@ -69,7 +69,7 @@ a {
   background-color: #e3242b;
   color: white;
   margin-bottom: 0px;
-  margin-top: 10px;
+  margin-top: 1rem;
   transition: transform 0.2s;
 }
 
