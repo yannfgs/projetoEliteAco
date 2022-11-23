@@ -11,6 +11,7 @@ a {
   text-decoration: none;
 }
 
+
 /* >>> HEADER <<< */
 .container a {
   color: black;
@@ -85,6 +86,7 @@ a {
   font-size: 20px;
 }
 
+
 /* >>> FIRST BANNER (PROMOS) <<< */
 .firstBanner img {
   width: 100%;
@@ -101,7 +103,6 @@ a {
   margin-bottom: 1.5rem;
   width: 99%;
 }
-
 
 .separator::before,
 .separator::after {
@@ -138,6 +139,7 @@ a {
 .categoryItem:hover {
   transform: scale(1.1);
 }
+
 
 /* >>> FIRST CARDS <<< */
 .cards {
@@ -182,6 +184,7 @@ a {
   font-size: 1.5rem;
   text-align: center;
 }
+
 
 /* >>> DESCRIPTION AND NEWSLETTER SECTION <<< */
 .company {
@@ -255,8 +258,6 @@ a {
 
 
 @media (max-width : 576px){
-
-  
 .footerRange {
   height: 150px;
   max-width: 100%;
@@ -266,9 +267,7 @@ a {
 
 
 /* >>> FOOTER SECTION <<< */
-
 .footerRange {
- 
   height: 120px;
   background-color: #e3242b;
   color: white;
