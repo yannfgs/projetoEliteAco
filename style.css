@@ -92,6 +92,33 @@ a {
 }
 
 /* >>> CATEGORIES <<< */
+
+
+
+
+/* .divider {
+	width:500px;
+	text-align:center;
+  margin-top: 2rem;
+}
+
+.divider hr {
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+} */
+
+
+
 .category {
   font-weight: 600;
   margin-top: 3rem;
