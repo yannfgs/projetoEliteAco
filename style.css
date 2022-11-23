@@ -93,31 +93,31 @@ a {
 
 /* >>> CATEGORIES <<< */
 
-
-
-
-/* .divider {
-	width:500px;
-	text-align:center;
+.separator {
+  color: rgba(9, 116, 239, 0.82) ;
+  font-size: 2rem;
+  font-weight: 400;
   margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  width: 99%;
 }
 
-.divider hr {
-	margin-left:auto;
-	margin-right:auto;
-	width:60%;
 
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+  width:200px;
 }
 
-.left {
-	float:left;
+.separator:not(:empty)::before {
+  margin-right: .50em;
 }
 
-.right {
-	float:right;
-} */
-
-
+.separator:not(:empty)::after {
+  margin-left: .50em;
+}
 
 .category {
   font-weight: 600;
@@ -126,9 +126,9 @@ a {
 }
 
 .spanCategory {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  color: #707173;
+  color: #607d8b;
 }
 
 .categoryItem {
@@ -162,21 +162,14 @@ a {
   text-decoration: none;
   outline: none;
   background: white;
-  color: #004abe;
+  color: #607d8b;
   border: none;
   border-radius: 5px;
-  font-size: 1.25rem;
-
+  font-size: 1rem;
+  font-weight: 600;
   text-align: center;
-}
-
-.secondCards .firstButton {
-  margin-top: -30%;
-  padding: 6px;
   width: 170px;
-  margin-left: 25%;
-  text-align: center;
-  text-decoration: none;
+  height: 70px;
 }
 
 .buttonDescription {
@@ -260,10 +253,22 @@ a {
   }
 }
 
+
+@media (max-width : 576px){
+
+  
+.footerRange {
+  height: 150px;
+  max-width: 100%;
+  font-size: 12px;
+}
+}
+
+
 /* >>> FOOTER SECTION <<< */
 
 .footerRange {
-  width: 100%;
+ 
   height: 120px;
   background-color: #e3242b;
   color: white;
@@ -272,4 +277,8 @@ a {
 .footerCopyRight {
   background-color: #e3242b;
   color: white;
+}
+
+footer div{
+  width:90%;
 }
