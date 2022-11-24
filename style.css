@@ -96,7 +96,7 @@ a {
 /* >>> CATEGORIES <<< */
 
 .separator {
-  color: rgba(9, 116, 239, 0.82) ;
+  color: rgba(9, 116, 239, 0.82);
   font-size: 2rem;
   font-weight: 400;
   margin-top: 2rem;
@@ -109,7 +109,7 @@ a {
   content: '';
   flex: 1;
   border-bottom: 1px solid #000;
-  width:200px;
+  width: 200px;
 }
 
 .separator:not(:empty)::before {
@@ -238,9 +238,11 @@ a {
     color: #e3242b;
     border-color: grey;
   }
+
   .btn-secondary:active {
     background: #e3242b;
   }
+
   .btn-secondary:disabled {
     background: #e3242b;
   }
@@ -257,12 +259,12 @@ a {
 }
 
 
-@media (max-width : 576px){
-.footerRange {
-  height: 150px;
-  max-width: 100%;
-  font-size: 12px;
-}
+@media (max-width : 576px) {
+  .footerRange {
+    height: 150px;
+    max-width: 100%;
+    font-size: 12px;
+  }
 }
 
 
@@ -278,6 +280,6 @@ a {
   color: white;
 }
 
-footer div{
-  width:90%;
+footer div {
+  width: 90%;
 }
