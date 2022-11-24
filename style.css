@@ -11,6 +11,7 @@ a {
   text-decoration: none;
 }
 
+
 /* >>> HEADER <<< */
 .container a {
   color: black;
@@ -85,11 +86,13 @@ a {
   font-size: 20px;
 }
 
+
 /* >>> FIRST BANNER (PROMOS) <<< */
 .firstBanner img {
   width: 100%;
   margin-bottom: 3rem;
 }
+
 
 /* >>> CATEGORIES <<< */
 
@@ -98,8 +101,8 @@ a {
   font-size: 2rem;
   font-weight: 400;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  width: 99%;
+  margin-bottom: 3rem;
+  width: 88%;
 }
 
 .separator::before,
@@ -138,6 +141,7 @@ a {
   transform: scale(1.1);
 }
 
+
 /* >>> FIRST CARDS <<< */
 .cards {
   /* background-color: grey; */
@@ -168,7 +172,7 @@ a {
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
-  width: 248px;
+  width: 170px;
   height: 70px;
 }
 
@@ -182,6 +186,7 @@ a {
   font-size: 1.5rem;
   text-align: center;
 }
+
 
 /* >>> DESCRIPTION AND NEWSLETTER SECTION <<< */
 .company {
@@ -236,8 +241,6 @@ a {
     display: none;
   }
 
-
-
   .firstNav .row {
     display: flex;
     justify-content: space-between;
@@ -247,7 +250,6 @@ a {
   .menu-hamburguer {
     margin-right: 20px;
   }
-
 
   .btn-secondary {
     background: #fff;
@@ -285,6 +287,7 @@ a {
   }
 }
 
+
 @media (max-width: 576px) {
   .footerRange {
     height: 150px;
@@ -315,8 +318,6 @@ a {
   color: #607d8b;
   
 }
-
-
 
 
 /* >>> FOOTER SECTION <<< */
