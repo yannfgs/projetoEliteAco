@@ -11,7 +11,6 @@ a {
   text-decoration: none;
 }
 
-
 /* >>> HEADER <<< */
 .container a {
   color: black;
@@ -86,7 +85,6 @@ a {
   font-size: 20px;
 }
 
-
 /* >>> FIRST BANNER (PROMOS) <<< */
 .firstBanner img {
   width: 100%;
@@ -106,18 +104,18 @@ a {
 
 .separator::before,
 .separator::after {
-  content: '';
+  content: "";
   flex: 1;
   border-bottom: 1px solid #000;
   width: 200px;
 }
 
 .separator:not(:empty)::before {
-  margin-right: .50em;
+  margin-right: 0.5em;
 }
 
 .separator:not(:empty)::after {
-  margin-left: .50em;
+  margin-left: 0.5em;
 }
 
 .category {
@@ -139,7 +137,6 @@ a {
 .categoryItem:hover {
   transform: scale(1.1);
 }
-
 
 /* >>> FIRST CARDS <<< */
 .cards {
@@ -168,14 +165,14 @@ a {
   border: none;
   border-radius: 5px;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: bold;
   text-align: center;
-  width: 170px;
+  width: 248px;
   height: 70px;
 }
 
 .buttonDescription {
-  width: 160px;
+  width: 248px;
   padding: 15px 15px;
   color: white;
   background: orange;
@@ -184,7 +181,6 @@ a {
   font-size: 1.5rem;
   text-align: center;
 }
-
 
 /* >>> DESCRIPTION AND NEWSLETTER SECTION <<< */
 .company {
@@ -222,16 +218,33 @@ a {
   height: 40px;
 }
 
-@media (min-width: 1140px) {
+@media (min-width: 992px) {
   .dropdown {
     display: none;
   }
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 991px) {
   .itensHeader {
     display: none;
   }
+
+  .search {
+    display: none;
+  }
+
+
+
+  .firstNav .row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+
+  .menu-hamburguer {
+    margin-right: 20px;
+  }
+
 
   .btn-secondary {
     background: #fff;
@@ -256,17 +269,35 @@ a {
     justify-content: center;
     align-items: center;
   }
+
+  .newsletter {
+    height: 310px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-
-@media (max-width : 576px) {
+@media (max-width: 576px) {
   .footerRange {
     height: 150px;
     max-width: 100%;
     font-size: 12px;
   }
-}
 
+  .secondNav {
+    display: none !important;
+  }
+
+  .newsletter {
+    height: 330px;
+    font-size: 1rem;
+  }
+}
 
 /* >>> FOOTER SECTION <<< */
 .footerRange {
