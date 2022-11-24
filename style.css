@@ -98,7 +98,7 @@ a {
   font-size: 2rem;
   font-weight: 400;
   margin-top: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   width: 99%;
 }
 
@@ -106,7 +106,7 @@ a {
 .separator::after {
   content: "";
   flex: 1;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.219);
   width: 200px;
 }
 
@@ -146,7 +146,8 @@ a {
 }
 
 .carouselProducts {
-  margin-top: 50px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .secondCards {
@@ -184,16 +185,18 @@ a {
 
 /* >>> DESCRIPTION AND NEWSLETTER SECTION <<< */
 .company {
-  margin-top: 30px;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 
 .newsletter {
   background: #004abe;
   color: white;
-  height: 170px;
+  height: 10rem;
   padding: 24px 32px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  justify-content: center;
 }
 
 .buttonCadastrar {
@@ -298,6 +301,23 @@ a {
     font-size: 1rem;
   }
 }
+
+
+/* >>> CERTIFICATES <<< */
+/* empty */
+/* empty */
+
+
+/* >>> SEPARATORS <<< */
+
+.separatorHome {
+  
+  color: #607d8b;
+  
+}
+
+
+
 
 /* >>> FOOTER SECTION <<< */
 .footerRange {
