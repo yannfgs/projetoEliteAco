@@ -36,8 +36,9 @@ a {
   height: 20px;
 }
 
-.col-2 a {
-  color: #25d366;
+.itemMenu {
+  text-align: center;
+  font-size: 0.85rem;
 }
 
 .containerNav {
@@ -226,12 +227,27 @@ a {
   height: 40px;
 }
 
+/* acima de 992 */
 @media (min-width: 992px) {
   .dropdown {
     display: none;
   }
+
+  .itensHeaderMd {
+    display: none;
+  }
+
+  .rowBuscar {
+    display: none;
+  }
+
+  .containerNav {
+    height: 100px;
+  }
 }
 
+
+/* 577 até 991 */
 @media (max-width: 991px) {
   .itensHeader {
     display: none;
@@ -241,10 +257,56 @@ a {
     display: none;
   }
 
+  .containerNav {
+    height: 120px;
+  }
+
+  .secondNav {
+    display: none !important;
+  }
+
+  .containerMenuMd {
+    display: flex;
+    justify-content: center;
+  }
+
+  .itensHeaderMd ion-icon {
+    font-size: 1.5rem
+  }
+
+  .itensHeaderMd span {
+    font-size: 0.8rem;
+
+  }
+
+  .inputBusca {
+    width: 100%;
+    margin-top: 10px;
+
+  }
+
+  .colInput {
+    margin-left: 12px;
+  }
+
+  .lupa {
+    top: 35%;
+    right: 2%;
+  }
+
+  .containerNav {
+    margin-bottom: 30px;
+  }
+
   .firstNav .row {
     display: flex;
-    justify-content: space-between;
+
     max-width: 100%;
+  }
+
+  .containerHeaderMd {
+    display: flex;
+    justify-content: center;
   }
 
   .menu-hamburguer {
@@ -287,7 +349,7 @@ a {
   }
 }
 
-
+/* abaixo de 576 */
 @media (max-width: 576px) {
   .footerRange {
     height: 150px;
@@ -303,6 +365,10 @@ a {
     height: 330px;
     font-size: 1rem;
   }
+
+  .containerNav {
+    margin-bottom: 30px;
+  }
 }
 
 
@@ -314,9 +380,9 @@ a {
 /* >>> SEPARATORS <<< */
 
 .separatorHome {
-  
+
   color: #607d8b;
-  
+
 }
 
 
