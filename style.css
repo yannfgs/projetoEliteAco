@@ -58,6 +58,11 @@ a {
   width: 45px;
   height: 30px;
   margin-right: 7px;
+  color: #25D366;
+}
+
+.whatsappHeader {
+  color: #25D366;
 }
 
 .dropdown-menu li a ion-icon {
