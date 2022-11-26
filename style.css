@@ -390,6 +390,40 @@ a {
 
 }
 
+/* >>> FOOTER SOCIAL MEDIA & PAYMENT METHODS <<< */
+
+.paymentMethods {
+  margin-left: 1rem;
+}
+
+.iconWhatsapp {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #25D366;
+}
+
+.iconFacebook {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #3b5998;
+}
+
+.iconYoutube {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #c4302b;
+}
+
+.iconInstagram {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #8d10d6;
+}
+
 
 /* >>> FOOTER SECTION <<< */
 .footerRange {
