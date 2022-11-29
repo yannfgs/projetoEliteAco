@@ -232,151 +232,6 @@ a {
   height: 40px;
 }
 
-/* acima de 992 */
-@media (min-width: 992px) {
-  .dropdown {
-    display: none;
-  }
-
-  .itensHeaderMd {
-    display: none;
-  }
-
-  .rowBuscar {
-    display: none;
-  }
-
-  .containerNav {
-    height: 100px;
-  }
-}
-
-
-/* 577 até 991 */
-@media (max-width: 991px) {
-  .itensHeader {
-    display: none;
-  }
-
-  .search {
-    display: none;
-  }
-
-  .containerNav {
-    height: 120px;
-  }
-
-  .secondNav {
-    display: none !important;
-  }
-
-  .containerMenuMd {
-    display: flex;
-    justify-content: center;
-  }
-
-  .itensHeaderMd ion-icon {
-    font-size: 1.5rem
-  }
-
-  .itensHeaderMd span {
-    font-size: 0.8rem;
-
-  }
-
-  .inputBusca {
-    width: 100%;
-    margin-top: 10px;
-
-  }
-
-  .colInput {
-    margin-left: 12px;
-  }
-
-  .lupa {
-    top: 35%;
-    right: 2%;
-  }
-
-  .containerNav {
-    margin-bottom: 30px;
-  }
-
-  .firstNav .row {
-    display: flex;
-
-    max-width: 100%;
-  }
-
-  .containerHeaderMd {
-    display: flex;
-    justify-content: center;
-  }
-
-  .menu-hamburguer {
-    margin-right: 20px;
-  }
-
-  .btn-secondary {
-    background: #fff;
-    color: #e3242b;
-    border-color: grey;
-  }
-
-  .btn-secondary:active {
-    background: #e3242b;
-  }
-
-  .btn-secondary:disabled {
-    background: #e3242b;
-  }
-
-  .btn-secondary:hover {
-    background: #e3242b;
-  }
-
-  .company {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .newsletter {
-    height: 310px;
-  }
-
-  .input {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-/* abaixo de 576 */
-@media (max-width: 576px) {
-  .footerRange {
-    height: 150px;
-    max-width: 100%;
-    font-size: 12px;
-  }
-
-  .secondNav {
-    display: none !important;
-  }
-
-  .newsletter {
-    height: 330px;
-    font-size: 1rem;
-  }
-
-  .containerNav {
-    margin-bottom: 30px;
-  }
-}
-
-
 /* >>> CERTIFICATES <<< */
 /* empty */
 /* empty */
@@ -437,6 +292,203 @@ a {
   color: white;
 }
 
-footer div {
+/* footer div {
   width: 90%;
+} */
+
+
+
+/* acima de 992 */
+@media (min-width: 992px) {
+  .dropdown {
+    display: none;
+  }
+
+  .itensHeaderMd {
+    display: none;
+  }
+
+  .rowBuscar {
+    display: none;
+  }
+
+  .containerNav {
+    height: 100px;
+  }
+
+
 }
+
+
+/* 577 até 991 */
+@media (max-width: 991px) {
+
+
+  .search {
+    display: none;
+  }
+
+  .containerNav {
+    height: 120px;
+  }
+
+  .secondNav {
+    display: none !important;
+  }
+
+  .containerMenuMd {
+    display: flex;
+    justify-content: center;
+  }
+
+  .itensHeaderMd ion-icon {
+    font-size: 1.5rem
+  }
+
+  .itensHeaderMd span {
+    font-size: 0.8rem;
+
+  }
+
+  .inputBusca {
+    width: 100%;
+    margin-top: 10px;
+
+  }
+
+  .colInput {
+    margin-left: 12px;
+  }
+
+  .lupa {
+    top: 35%;
+    right: -6%;
+  }
+
+  .containerNav {
+    margin-bottom: 30px;
+  }
+
+  .firstNav .row {
+    display: flex;
+
+    max-width: 100%;
+  }
+
+  .containerHeaderMd {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-hamburguer {
+    margin-right: 20px;
+  }
+
+  .btn-secondary {
+    background: #fff;
+    color: #e3242b;
+    border-color: grey;
+  }
+
+  .btn-secondary:active {
+    background: #e3242b;
+  }
+
+  .btn-secondary:disabled {
+    background: #e3242b;
+  }
+
+  .btn-secondary:hover {
+    background: #e3242b;
+  }
+
+  .company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newsletter {
+    height: 310px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* abaixo de 576 */
+@media (max-width: 576px) {
+
+  .firstNav{
+    margin-bottom:30px !important;
+  }
+  .firstNav .row {
+    display: flex;
+    justify-content: space-around;
+  
+  }
+
+  .itensHeader {
+    display: none;
+  }
+.menu-hamburguer{
+  align-self: flex-start;
+}
+
+  .divLogo{
+    width: 220px;
+  }
+  .itensHeaderMd{
+    display: none;
+  }
+
+  .inputBusca{
+    margin-bottom: 30px;
+    
+  }
+  .footerRange {
+    height: 150px;
+    max-width: 100%;
+    font-size: 12px;
+  }
+
+  .secondNav {
+    display: none !important;
+  }
+
+  .inputBusca{
+    display: none;
+  }
+
+
+  .lupa{
+    display:none;
+  }
+
+  .newsletter {
+    height: 330px;
+    font-size: 1rem;
+  }
+
+  .containerNav {
+    margin-bottom: 30px;
+  }
+
+  .certificates img{
+    margin-bottom: 2rem;
+  }
+.paymentImg {
+  max-width: 100%;
+}
+
+  footer{
+    height: 150px;
+    max-width: 100%;
+  }
+}
+
+
