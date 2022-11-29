@@ -323,7 +323,9 @@ a {
 /* 577 até 991 */
 @media (max-width: 991px) {
 
-
+.itensHeader{
+  display: none;
+}
   .search {
     display: none;
   }
