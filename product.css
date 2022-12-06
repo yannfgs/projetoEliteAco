@@ -7,3 +7,8 @@ ul{
 .imgProduct{
     max-width: 100%;
 }
+
+.inputQuantity{
+width: 120px;
+text-align: center;
+}
