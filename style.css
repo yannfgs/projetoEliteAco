@@ -323,9 +323,10 @@ a {
 /* 577 até 991 */
 @media (max-width: 991px) {
 
-.itensHeader{
-  display: none;
-}
+  .itensHeader {
+    display: none;
+  }
+
   .search {
     display: none;
   }
@@ -425,33 +426,37 @@ a {
 /* abaixo de 576 */
 @media (max-width: 576px) {
 
-  .firstNav{
-    margin-bottom:30px !important;
+  .firstNav {
+    margin-bottom: 30px !important;
   }
+
   .firstNav .row {
     display: flex;
     justify-content: space-around;
-  
+
   }
 
   .itensHeader {
     display: none;
   }
-.menu-hamburguer{
-  align-self: flex-start;
-}
 
-  .divLogo{
+  .menu-hamburguer {
+    align-self: flex-start;
+  }
+
+  .divLogo {
     width: 220px;
   }
-  .itensHeaderMd{
+
+  .itensHeaderMd {
     display: none;
   }
 
-  .inputBusca{
+  .inputBusca {
     margin-bottom: 30px;
-    
+
   }
+
   .footerRange {
     height: 150px;
     max-width: 100%;
@@ -462,13 +467,13 @@ a {
     display: none !important;
   }
 
-  .inputBusca{
+  .inputBusca {
     display: none;
   }
 
 
-  .lupa{
-    display:none;
+  .lupa {
+    display: none;
   }
 
   .newsletter {
@@ -480,17 +485,16 @@ a {
     margin-bottom: 30px;
   }
 
-  .certificates img{
+  .certificates img {
     margin-bottom: 2rem;
   }
-.paymentImg {
-  max-width: 100%;
-}
 
-  footer{
+  .paymentImg {
+    max-width: 100%;
+  }
+
+  footer {
     height: 150px;
     max-width: 100%;
   }
 }
-
-

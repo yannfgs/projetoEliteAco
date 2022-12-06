@@ -1,14 +1,14 @@
 /* >>> PRODUCTS PAGE */
 
-ul{
+ul {
     list-style: none;
 }
 
-.imgProduct{
+.imgProduct {
     max-width: 100%;
 }
 
-.inputQuantity{
-width: 120px;
-text-align: center;
+.inputQuantity {
+    width: 120px;
+    text-align: center;
 }
