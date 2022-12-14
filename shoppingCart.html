@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/footers/">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
 
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/shoppingCart.css">
@@ -19,20 +21,36 @@
 <header>
 
     <!-- HEADER -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <img class="logoCart" src="img/logo_eliteaco_semfundo_200x85.png" alt="eliteaco logo" />
+ <div class="container">
 
-            <div class="collapse navbar-collapse w-50" id="navbarSupportedContent">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Escreva o que procura aqui"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+    <div class="row d-flex align-items-center">
+      
+     <div class="col mt-2 mb-2">
+        <img class="logoCart" src="img/logo_eliteaco_semfundo_200x85.png" alt="eliteaco logo" />
 
+     </div>
+     <div class="col " >
+
+        <div class="input-group ">
+            <input type="text" class="form-control" placeholder="Buscar Produto" aria-label="Buscar Produto" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary lupa" type="button" id="button-addon2"><ion-icon name="search-outline" ></ion-icon></button>
+          </div>
+
+     </div>
+   
+     
+     <div class="col d-flex align-items-center">
+       <span class="textCompra"><ion-icon name="lock-closed" class="textCompra me-1"></ion-icon>Compra Segura</span>
+
+     </div>
+
+    
+  
+
+
+    </div>
+ </div>
+  
 </header>
 
 
@@ -42,8 +60,8 @@
     <div class="container">
 
         <div class="row d-flex">
-            <div class="col-7 d-flex justify-content-center align-items-center mb-4 mt-3">
-                <div class="col">
+            <div class="col-7 d-flex justify-content-center align-items-center fs-5 mb-4 mt-3">
+                <div class="col itemCart">
                     <ion-icon name="cart"></ion-icon>
                     <span>Carrinho</span>
                 </div>
@@ -83,6 +101,10 @@
                                     <input type="button" class="btn btn-secondary" value="-">
                                 </div>
                             </div>
+
+
+                    
+
                             <a href=""><span>Excluir</span></a>
                         </div>
 
@@ -108,7 +130,11 @@
                                         value="0">
                                     <input type="button" class="btn btn-secondary" value="-">
                                 </div>
-                            </div>
+                            </div> 
+ 
+                     
+
+
                             <a href=""><span>Excluir</span></a>
                         </div>
 
@@ -169,7 +195,7 @@
     </div>
 
 
-
+<script src="/shoppingCart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>

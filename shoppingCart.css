@@ -1,7 +1,31 @@
 
-
+header{
+   background-color: #00549E;
+}
 
 .cartImage{
    width: 90px;
    height: 90px;
+}
+
+.textCompra{
+   color: white;
+   font-size: 18px
+}
+
+.searchButton {
+   color: blue;
+}
+
+.btnPesquisar{
+   background-color: green;
+}
+
+.lupa{
+background-color: white;
+border-style: none;
+}
+
+.lupa:hover{
+background-color: #EE2E34;
 }
