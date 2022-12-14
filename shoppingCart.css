@@ -1,14 +1,13 @@
-
-header{
+header {
    background-color: #00549E;
 }
 
-.cartImage{
+.cartImage {
    width: 90px;
    height: 90px;
 }
 
-.textCompra{
+.textCompra {
    color: white;
    font-size: 18px
 }
@@ -17,15 +16,15 @@ header{
    color: blue;
 }
 
-.btnPesquisar{
+.btnPesquisar {
    background-color: green;
 }
 
-.lupa{
-background-color: white;
-border-style: none;
+.lupa {
+   background-color: white;
+   border-style: none;
 }
 
-.lupa:hover{
-background-color: #EE2E34;
+.lupa:hover {
+   background-color: #EE2E34;
 }
