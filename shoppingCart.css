@@ -1,5 +1,8 @@
 header {
    background-color: #00549E;
+   height: 7rem;
+   align-items: center;
+   margin-bottom: 0.6rem;
 }
 
 .cartImage {
