@@ -2,7 +2,7 @@ const express = require('express');
 
 const api = express();
 
-const indexController = require('./controllers/indexController')
+const indexController = require('./controllers/indexController');
 
 api.get('/', indexController);
 
