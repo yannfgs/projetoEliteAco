@@ -3,7 +3,6 @@ const express = require('express');
 
 const api = express();
 
-
 const indexController = require('./controllers/indexController');
 
 
